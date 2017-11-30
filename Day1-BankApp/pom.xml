@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.cap.app</groupId>
   <artifactId>Day1-BankApp</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.2-SNAPSHOT</version>
   
   <dependencies>
   	<dependency>
@@ -35,7 +35,11 @@
           <target>1.8</target>
         </configuration>
   		</plugin>
-  	
+  	<plugin>
+        <groupId>org.sonarsource.scanner.maven</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>3.3.0.603</version>
+      </plugin>
   	</plugins>
   	
   </build>
